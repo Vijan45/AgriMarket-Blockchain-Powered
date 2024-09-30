@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Decentralized Marketplace for Agricultural Products" />
+    <meta name="theme-color" content="#007bff" />
+    <title>Agricultural Marketplace</title>
+
+    <!-- Bootstrap CSS for styling -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+      body {
+        font-family: 'Nunito', sans-serif;
+        background-color: #f8f9fa;
+      }
+      h1 {
+        font-size: 3rem;
+        margin-top: 2rem;
+        text-align: center;
+        font-weight: 700;
+        color: #28a745;
+      }
+      p {
+        font-size: 1.2rem;
+        color: #343a40;
+        text-align: center;
+      }
+      .navbar {
+        margin-bottom: 2rem;
+      }
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #28a745;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .progress-bar {
+        height: 30px;
+        background-color: #007bff;
+      }
+      .toast {
+        background-color: #28a745;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">AgriMarket</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <!-- Removed Home, Products, Cart links as requested -->
+        </ul>
+      </div>
+    </nav>
+
+    <div id="root"></div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 AgriMarket. All Rights Reserved.</p>
+    </footer>
+
+    <!-- React and ReactDOM -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- Bootstrap and JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

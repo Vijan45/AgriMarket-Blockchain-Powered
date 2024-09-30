@@ -1,0 +1,56 @@
+/* Styling for the transaction history */
+.transaction-history {
+    font-size: 0.85rem; /* Minimized small fonts */
+    color: #555;
+    list-style-type: none;
+    padding: 0;
+}
+
+.transaction-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+    .transaction-item p {
+        margin: 0;
+        line-height: 1.4;
+    }
+
+/* Styling for purchase success message */
+.purchase-success {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Button Styling */
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+    .btn-success:hover {
+        background-color: #218838;
+    }
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: white;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333;
+    }

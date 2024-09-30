@@ -1,0 +1,40 @@
+/* App.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.container {
+    padding: 20px; /* Padding around the container */
+}
+
+/* Center navigation */
+.navbar {
+    display: flex;
+    justify-content: center; /* Center navigation items */
+    align-items: center;
+    background-color: #fff; /* White background for navbar */
+    padding: 15px; /* Padding inside the navbar */
+    border-bottom: 2px solid #ccc; /* Bottom border for navbar */
+}
+
+    .navbar a {
+        margin: 0 15px; /* Spacing between links */
+        font-size: 1.5rem; /* Increase font size */
+        font-weight: bold; /* Make font bold */
+        color: #28a745; /* Green color */
+        text-decoration: none; /* Remove underline */
+    }
+
+        .navbar a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+/* Header styling */
+h2 {
+    text-align: center; /* Center the header text */
+    font-size: 2.5rem; /* Make the header larger */
+    color: #28a745; /* Green color */
+}
